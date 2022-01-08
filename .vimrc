@@ -135,7 +135,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme gruvbox
 catch
 endtry
 
@@ -151,7 +151,7 @@ if has("gui_running")
 endif
 
 " More colorfull theme
-set termguicolors
+" set termguicolors
 
 " Completion List color
 hi Pmenu guibg=#444444 ctermbg=DarkGray
