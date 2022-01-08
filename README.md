@@ -23,3 +23,8 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 
 and reboot.
 
+## Swap Fn and Ctrl keys
+
+Enter into  BIOS:
+
+Go to Config -> keyboard/mouse -> Fn and Ctrl Key swap.
