@@ -54,6 +54,8 @@ exec_always --no-startup-id autotiling
 exec_always --no-startup-id blueman-applet
 # touchpad gestures
 exec_always --no-startup-id libinput-gestures
+# volume 
+exec_always --no-startup-id pasystray
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -272,7 +274,7 @@ bindsym XF86Explorer exec --no-startup-id "thunar"
 bindsym $alt+t exec --no-startup-id "bash ~/alt_bindkeys.sh t"
 bindsym $alt+c exec --no-startup-id "bash ~/alt_bindkeys.sh c"
 bindsym $alt+i exec --no-startup-id "bash ~/alt_bindkeys.sh i"
-bindsym $alt+b exec --no-startup-id "bash ~/alt_bindkeys.sh b"
+bindsym $alt+b exec --no-startup-id "firefox"
 bindsym $alt+v exec --no-startup-id "bash ~/alt_bindkeys.sh v"
 bindsym $alt+s exec --no-startup-id "bash ~/alt_bindkeys.sh s"
 
