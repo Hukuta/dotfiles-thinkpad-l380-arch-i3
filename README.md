@@ -1,10 +1,12 @@
-#Thinkpad L380 Arch i3 dotfiles
+## Thinkpad L380 Arch i3 dotfiles
 
 Packages listed in pkglist.txt
 
-###Warning: S3 (suspend) doesn’t work properly on this laptop.
+![!](https://raw.githubusercontent.com/Hukuta/dotfiles-thinkpad-l380-arch-i3/main/screenshot.png)
 
-##To disable suspending:
+### Warning: S3 (suspend) doesn’t work properly on this laptop.
+
+## To disable suspending:
 
 edit file /etc/systemd/logind.conf 
 
