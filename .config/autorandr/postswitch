@@ -1,0 +1,5 @@
+#!/usr/bin/zsh
+#dunstify -h string:x-dunst-stack-tag:test Switched -A 'tested,default'
+feh --bg-scale ~/jonatan-pie-3l3RwQdHRHg-unsplash.jpg &
+~/polybar.start.sh & 
+
