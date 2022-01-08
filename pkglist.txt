@@ -35,6 +35,7 @@ efibootmgr
 exfat-utils
 faac
 feh
+file-roller
 firefox
 flameshot
 flex
@@ -46,8 +47,11 @@ git
 gmusicbrowser
 gparted
 gptfdisk
+greetd
+greetd-tuigreet
 groff
 grub
+grub-customizer
 gsfonts
 gvfs
 haveged
@@ -60,7 +64,6 @@ keepassxc
 libdv
 libinput-gestures
 libtool
-lightdm-gtk-greeter
 linux
 linux-firmware
 linux-headers
@@ -84,6 +87,7 @@ openssh
 os-prober
 p7zip
 pacman-contrib
+pasystray
 patch
 pavucontrol
 pix
@@ -124,6 +128,7 @@ unrar
 unzip
 usbutils
 vim
+vim-colorschemes
 vlc
 wavpack
 wget
