@@ -1,5 +1,6 @@
 accountsservice
 acpi
+acpi_call
 acpid
 alacritty
 alsa-plugins
@@ -20,7 +21,6 @@ btrfs-progs
 chromium
 copyq
 cpupower
-cronie
 deepin-icon-theme
 deluge
 deluge-gtk
@@ -35,6 +35,7 @@ efibootmgr
 exfat-utils
 faac
 feh
+ffmpegthumbnailer
 file-roller
 firefox
 flameshot
@@ -43,6 +44,7 @@ fuse2
 fuse3
 fuseiso
 gcc
+gedit
 git
 gmusicbrowser
 gparted
@@ -62,6 +64,7 @@ intel-ucode
 kbdd-git
 keepassxc
 libdv
+libgsf
 libinput-gestures
 libtool
 linux
@@ -76,6 +79,7 @@ lxappearance
 lzop
 m4
 make
+man-db
 mousepad
 neofetch
 network-manager-applet
@@ -99,6 +103,7 @@ pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
 python-pip
+raw-thumbnailer
 rofi
 rsync
 sdl_ttf
@@ -107,11 +112,14 @@ simplescreenrecorder
 sshfs
 sudo
 syncthing
+syncthingtray
 telegram-desktop
 texinfo
 thunar
 thunar-archive-plugin
 thunar-volman
+tlp
+tlp-rdw
 traceroute
 ttf-bitstream-vera
 ttf-dejavu
