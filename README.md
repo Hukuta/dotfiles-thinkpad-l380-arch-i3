@@ -28,3 +28,23 @@ and reboot.
 Enter into  BIOS:
 
 Go to Config -> keyboard/mouse -> Fn and Ctrl Key swap.
+
+## Enabled systemd services
+```
+$ systemctl list-unit-files --state=enabled
+```
+~~~
+UNIT FILE                          STATE   VENDOR PRESET
+autorandr.service                  enabled disabled
+bluetooth.service                  enabled disabled
+getty@.service                     enabled enabled
+greetd.service                     enabled disabled
+NetworkManager-dispatcher.service  enabled disabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled disabled
+ntpd.service                       enabled disabled
+systemd-timesyncd.service          enabled enabled
+tlp.service                        enabled disabled
+remote-fs.target                   enabled enabled
+fstrim.timer                       enabled disabled
+~~~
