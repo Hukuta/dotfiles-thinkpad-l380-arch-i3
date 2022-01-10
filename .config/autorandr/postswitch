@@ -1,5 +1,10 @@
 #!/usr/bin/zsh
-#dunstify -h string:x-dunst-stack-tag:test Switched -A 'tested,default'
 feh --bg-scale ~/jonatan-pie-3l3RwQdHRHg-unsplash.jpg &
 ~/polybar.start.sh & 
 
+# switch audio output to HDMI when tv connected to HDMI port
+if xrandr | grep "HDMI2 connected" ; then
+    pactl set-card-profile 0 "output:hdmi-stereo-extra1+input:analog-stereo"
+else
+    pactl set-card-profile 0 "output:analog-stereo+input:analog-stereo"
+fi
