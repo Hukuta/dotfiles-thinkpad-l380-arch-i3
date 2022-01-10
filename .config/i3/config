@@ -24,14 +24,16 @@ font pango:monospace 8
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
-exec --no-startup-id dex --autostart --environment i3
+#exec --no-startup-id dex --autostart --environment i3
 
 exec --no-startup-id "xcompmgr -n &"
+
+exec --no-startup-id start-pulseaudio-x11
 
 # start polybar on thr every monitor
 exec --no-startup-id ~/polybar.start.sh
 # keyboard layouts
-exec --no-startup-id setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle"
+exec_always --no-startup-id setxkbmap "us,ru" ",winkeys" "grp:alt_shift_toggle"
 # custom startup script (mound disks, run backup, start other apps)
 exec --no-startup-id [ "$XDG_VTNR" -eq '7' ] && ~/startup.sh &
 # desktop image
@@ -51,11 +53,15 @@ exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 # autotiling @link https://github.com/nwg-piotr/autotiling
 exec_always --no-startup-id autotiling
 # bluetooth tray
-exec_always --no-startup-id blueman-applet
+exec --no-startup-id blueman-applet
 # touchpad gestures
-exec_always --no-startup-id libinput-gestures
+exec --no-startup-id /usr/bin/libinput-gestures
 # volume 
-exec_always --no-startup-id pasystray
+exec --no-startup-id pasystray
+# screenshot tool 
+exec --no-startup-id flameshot
+# Run terminal at starup
+exec --no-startup-id /usr/bin/alacritty
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -306,4 +312,3 @@ for_window [class="firefox"] resize grow height 1 px or 1 ppt
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
 exec --no-startup-id xss-lock --transfer-sleep-lock -- $Locker
-
