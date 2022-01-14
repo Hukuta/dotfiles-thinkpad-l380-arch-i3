@@ -56,8 +56,6 @@ exec_always --no-startup-id autotiling
 exec --no-startup-id blueman-applet
 # touchpad gestures
 exec --no-startup-id /usr/bin/libinput-gestures
-# volume 
-exec --no-startup-id pasystray
 # screenshot tool 
 exec --no-startup-id flameshot
 # Run terminal at starup
