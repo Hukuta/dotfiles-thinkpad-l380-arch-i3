@@ -24,6 +24,7 @@ cpupower
 deepin-icon-theme
 deluge
 deluge-gtk
+dex
 dhcpcd
 dialog
 dmenu
@@ -67,6 +68,7 @@ libdv
 libgsf
 libinput-gestures
 libtool
+libvdpau-va-gl
 linux
 linux-firmware
 linux-headers
@@ -87,11 +89,11 @@ networkmanager
 networkmanager-openvpn
 ntfs-3g
 ntp
+nuspell
 openssh
 os-prober
 p7zip
 pacman-contrib
-pasystray
 patch
 pavucontrol
 pix
