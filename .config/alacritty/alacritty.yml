@@ -10,11 +10,11 @@ padding:
 
 
 decorations: none
-background_opacity: 0.95
+background_opacity: 1
 
 # Font configuration 
 font:
-  size: 10.0
+  size: 9
   # Normal (roman) font face
   normal: 
     family: JetBrains Mono
@@ -30,34 +30,35 @@ font:
     style: Italic
 
 
-# Colors (based on Pop!_OS)
+# Colors (Gruvbox dark)
 colors:
   # Default colors
   primary:
-    background: '#2D3133'
-    foreground: '#F2F2F2'
+    background: '#1d2021'
+    foreground: '#ebdbb2'
 
   # Normal colors
   normal:
-    black:   '#333333'
-    red:     '#CC0000'
-    green:   '#4E9A06'
-    yellow:  '#C4A000'
-    blue:    '#3465A4'
-    magenta: '#75507B'
-    cyan:    '#06989A'
-    white:   '#D3D7CF'
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
 
   # Bright colors
   bright:
-    black:   '#88807C'
-    red:     '#F15D22'
-    green:   '#73C48F'
-    yellow:  '#FFCE51'
-    blue:    '#48B9C7'
-    magenta: '#AD7FA8'
-    cyan:    '#34E2E2'
-    white:   '#EEEEEC'
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+
 
 
 key_bindings:
