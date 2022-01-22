@@ -1,7 +1,7 @@
 window:
   dynamic_title: true
   dimensions:
-    columns: 120
+    columns: 60
     lines: 35
 
 padding:
@@ -10,11 +10,11 @@ padding:
 
 
 decorations: none
-background_opacity: 0.87
+background_opacity: 0.95
 
 # Font configuration 
 font:
-  size: 11.0
+  size: 10.0
   # Normal (roman) font face
   normal: 
     family: JetBrains Mono
@@ -34,7 +34,7 @@ font:
 colors:
   # Default colors
   primary:
-    background: '#2b2e37'
+    background: '#2D3133'
     foreground: '#F2F2F2'
 
   # Normal colors
@@ -63,5 +63,4 @@ colors:
 key_bindings:
   - { key: V,        mods: Command,       action: Paste                        }
   - { key: C,        mods: Command,       action: Copy                         }
-  - { key: Q,        mods: Command,       action: Quit                         }
-  - { key: N,        mods: Command,       action: SpawnNewInstance             }
+  - { key: Q,        mods: Control,       action: Quit                         }
